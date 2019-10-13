@@ -18,14 +18,7 @@ function App() {
             using JWT authentication
           </a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        More to be added...
       </header>
     </div>
   );
