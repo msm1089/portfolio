@@ -14,7 +14,8 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            DevConnector - social network site built with React and Redux
+            DevConnector - social network site built with React and Redux and
+            using JWT authentication
           </a>
         </p>
         <a
