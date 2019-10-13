@@ -8,7 +8,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <a
+            href="https://devconnector.markmcpherson.co.uk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DevConnector - social network site built with React and Redux
+          </a>
         </p>
         <a
           className="App-link"
