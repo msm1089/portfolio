@@ -18,7 +18,7 @@ function App() {
             using JWT authentication
           </a>
         </p>
-        More to be added (once caching is sorted) ...
+        More to be added ...
       </header>
     </div>
   );
