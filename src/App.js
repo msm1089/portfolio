@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <a
+            className="App-link"
             href="https://devconnector.markmcpherson.co.uk"
             target="_blank"
             rel="noopener noreferrer"
