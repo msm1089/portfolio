@@ -1,27 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
+
+import Layout from './hoc/Layout/Layout';
+import Homepage from './containers/Homepage/Homepage';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <a
-            className="App-link"
-            href="https://devconnector.markmcpherson.co.uk"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            DevConnector - social network site built with React and Redux and
-            using JWT authentication
-          </a>
-        </p>
-        More to be added ...
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Switch>
+          <Layout>
+            <Route path="/" exact component={Homepage} />
+          </Layout>
+        </Switch>
+      </div>
+    );
+  }
 }
 
 export default App;
